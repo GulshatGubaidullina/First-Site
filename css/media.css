@@ -1,0 +1,93 @@
+/* Медиа запрос: для экрана с шириной до 1140px */
+@media (max-width: 1140px){
+	.card{
+		width: calc(50% - 15px);
+	}
+
+	.footer {
+		padding: 40px 0 60px;
+	}
+
+	.footer__row {
+		flex-direction: column-reverse;
+		align-items: center;
+		text-align: center;
+	}
+
+	.footer__col{
+		margin-bottom: 30px;
+	}
+
+	.footer__col:first-child{
+		margin-bottom: 0;
+	}
+}
+
+/* Медиа запрос: для экрана с шириной до 760px */
+@media (max-width: 760px){
+	.header__title{
+		font-size: 32px;
+	}
+
+	.header__subtitle{
+		font-size: 14px;
+	}
+
+	.main{
+		padding: 40px 0 60px;
+	}
+
+	.main__title{
+		font-size: 32px;
+		margin-bottom: 30px;
+	}
+
+	.cards__wrapper{
+		justify-content: center;
+	}
+
+	.card{
+		max-width: 530px;
+		width: 100%;
+	}
+
+	.card:nth-last-child(2){
+		margin-bottom: 30px;
+	}
+
+	.card-link{
+		padding: 15px;
+	}
+
+	.card__img{
+		margin-bottom: 10px;
+	}
+
+	.card__title{
+		font-size: 18px;
+		margin-bottom: 10px;
+	}
+
+	.card p{
+		font-size: 14px;
+	}
+	
+	.copyright__name {
+		font-size: 18px;
+		margin-bottom: 5px;
+	}
+
+	.footer__copyright p{
+		font-size: 14px;
+	}
+
+	.footer__icons p{
+		font-size: 14px;
+	}
+
+	.footer__contacts p{
+		font-size: 14px;
+		margin: 0;
+		margin-top: 15px;
+	}
+}
