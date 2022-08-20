@@ -90,4 +90,23 @@
 		margin: 0;
 		margin-top: 15px;
 	}
+
+	.project {
+		padding: 40px 0 60px;
+	}
+	.wrapper {
+	}
+	.project__title {
+		font-size: 28px;
+		margin-bottom: 30px;
+	}
+	.project__img {
+		margin-bottom: 20px;
+	}
+	.project__description {
+		margin-bottom: 50px;
+	}
+	.project__btn {
+		padding: 0 10px;
+	}
 }
